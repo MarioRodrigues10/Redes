@@ -19,23 +19,120 @@
   <body>
     <div class="reveal">
       <div class="slides">
+        <section data-background="#dddddd">
+          <a href="https://www.w3schools.com/tags/tag_doctype.asp">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+              alt="reveal.js logo"
+              style="
+                height: 180px;
+                margin: 0 auto 4rem auto;
+                background: transparent;
+              "
+              class="demo-logo"
+            />
+          </a>
+          <h3>HTML Revision</h3>
+          <p>
+            <small
+              >Created by <a href="">Mr. Othman</a> and
+              <a href="">Ms. Samah</a></small
+            >
+          </p>
+        </section>
+
+        <section>
+          <h2>Hello There</h2>
+          <p>
+            Welcome to this new html revision webpage. Hope this will benefit
+            you and enlighten you with knowledge. Enjoy ^_^
+          </p>
+          <img src="examples/assets/giphy.gif" width="150" height="150" />
+        </section>
         <section data-markdown>
           <script type="text/template">
-            ## Hosamu Markdown Text
+            ## The Basic HTML Skeleton Structure
 
 
-            Your Potato website in markdown section --- [Your Website](https://undergroundauto.me/).
+            Here you can see the basic HTML structure in which every standard html project uses.
 
             ```html []
-            <section data-markdown>
-              ## Stuff
-
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius architecto dolor, praesentium quas assumenda perferendis eum natus sint consectetur totam. Deserunt dicta officiis error vero, consequatur quis praesentium nostrum sit.
-            </section>
+              <!DOCTYPE html>
+              <html>
+                <head>
+                  <title>
+                     Your Title Here
+                  </title>
+                </head>
+                <body>
+                  .
+                  .
+                  .
+                  .
+                </body>
+              </html>
             ```
           </script>
         </section>
-        <section>Slide 1</section>
+
+        <section data-auto-animate>
+          <h2 data-id="code-title">Tags Explained Part 1</h2>
+          <p>
+            Always remember that most html tags have an <b>opening</b> and
+            <b>closing</b>.
+          </p>
+          <pre
+            data-id="code-animation"
+          ><code class="hljs" data-trim data-line-numbers="2,14|3,7|4,6|8,13"><script type="text/template">
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>
+                   Your Title Here
+                </title>
+              </head>
+              <body>
+                .
+                .
+                .
+                .
+              </body>
+            </html>
+					</script></code></pre>
+        </section>
+
+        <section data-auto-animate>
+          <h2 data-id="code-title">Tags Explained Part 2</h2>
+          <p>
+            But in some cases there are no openings and closings. Instead the
+            tag is just a single tag without a specific closing tag.
+          </p>
+          <pre
+            data-id="code-animation"
+          ><code class="hljs" data-trim data-line-numbers="2,14|3,7|4,6|8,13"><script type="text/template">
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>
+                   Your Title Here
+                </title>
+              </head>
+              <body>
+                .
+                .
+                <img src="some_image.png" width="100" height="100"/>
+                .
+                .
+                <br/>
+                <hr/>
+                .
+                .
+              </body>
+            </html>
+					</script></code></pre>
+        </section>
+
+        <section>The Basics</section>
         <section>Slide 2</section>
       </div>
     </div>
